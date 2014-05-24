@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D7C06461930792C00FE8BD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D7C06451930792C00FE8BD0 /* Foundation.framework */; };
+		4D7C06481930792C00FE8BD0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D7C06471930792C00FE8BD0 /* CoreGraphics.framework */; };
+		4D7C064A1930792C00FE8BD0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D7C06491930792C00FE8BD0 /* UIKit.framework */; };
+		4D7C06501930792C00FE8BD0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D7C064E1930792C00FE8BD0 /* InfoPlist.strings */; };
+		4D7C06521930792C00FE8BD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7C06511930792C00FE8BD0 /* main.m */; };
+		4D7C06561930792C00FE8BD0 /* MMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7C06551930792C00FE8BD0 /* MMAppDelegate.m */; };
+		4D7C06591930792C00FE8BD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D7C06571930792C00FE8BD0 /* Main.storyboard */; };
+		4D7C065C1930792C00FE8BD0 /* MMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7C065B1930792C00FE8BD0 /* MMViewController.m */; };
+		4D7C065E1930792C00FE8BD0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D7C065D1930792C00FE8BD0 /* Images.xcassets */; };
+		4D7C06651930792C00FE8BD0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D7C06641930792C00FE8BD0 /* XCTest.framework */; };
+		4D7C06661930792C00FE8BD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D7C06451930792C00FE8BD0 /* Foundation.framework */; };
+		4D7C06671930792C00FE8BD0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D7C06491930792C00FE8BD0 /* UIKit.framework */; };
+		4D7C066F1930792C00FE8BD0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D7C066D1930792C00FE8BD0 /* InfoPlist.strings */; };
+		4D7C06711930792C00FE8BD0 /* CookieDesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7C06701930792C00FE8BD0 /* CookieDesTests.m */; };
+		4D7C0685193098DE00FE8BD0 /* NSURLRequest+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7C0684193098DE00FE8BD0 /* NSURLRequest+Extension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D7C06681930792C00FE8BD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D7C063A1930792C00FE8BD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D7C06411930792C00FE8BD0;
+			remoteInfo = CookieDes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D7C06421930792C00FE8BD0 /* CookieDes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CookieDes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D7C06451930792C00FE8BD0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4D7C06471930792C00FE8BD0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4D7C06491930792C00FE8BD0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4D7C064D1930792C00FE8BD0 /* CookieDes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CookieDes-Info.plist"; sourceTree = "<group>"; };
+		4D7C064F1930792C00FE8BD0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4D7C06511930792C00FE8BD0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D7C06531930792C00FE8BD0 /* CookieDes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CookieDes-Prefix.pch"; sourceTree = "<group>"; };
+		4D7C06541930792C00FE8BD0 /* MMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMAppDelegate.h; sourceTree = "<group>"; };
+		4D7C06551930792C00FE8BD0 /* MMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMAppDelegate.m; sourceTree = "<group>"; };
+		4D7C06581930792C00FE8BD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D7C065A1930792C00FE8BD0 /* MMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMViewController.h; sourceTree = "<group>"; };
+		4D7C065B1930792C00FE8BD0 /* MMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMViewController.m; sourceTree = "<group>"; };
+		4D7C065D1930792C00FE8BD0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4D7C06631930792C00FE8BD0 /* CookieDesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CookieDesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D7C06641930792C00FE8BD0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4D7C066C1930792C00FE8BD0 /* CookieDesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CookieDesTests-Info.plist"; sourceTree = "<group>"; };
+		4D7C066E1930792C00FE8BD0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4D7C06701930792C00FE8BD0 /* CookieDesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CookieDesTests.m; sourceTree = "<group>"; };
+		4D7C0683193098DE00FE8BD0 /* NSURLRequest+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLRequest+Extension.h"; sourceTree = "<group>"; };
+		4D7C0684193098DE00FE8BD0 /* NSURLRequest+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLRequest+Extension.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D7C063F1930792C00FE8BD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D7C06481930792C00FE8BD0 /* CoreGraphics.framework in Frameworks */,
+				4D7C064A1930792C00FE8BD0 /* UIKit.framework in Frameworks */,
+				4D7C06461930792C00FE8BD0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D7C06601930792C00FE8BD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D7C06651930792C00FE8BD0 /* XCTest.framework in Frameworks */,
+				4D7C06671930792C00FE8BD0 /* UIKit.framework in Frameworks */,
+				4D7C06661930792C00FE8BD0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D7C06391930792C00FE8BD0 = {
+			isa = PBXGroup;
+			children = (
+				4D7C064B1930792C00FE8BD0 /* CookieDes */,
+				4D7C066A1930792C00FE8BD0 /* CookieDesTests */,
+				4D7C06441930792C00FE8BD0 /* Frameworks */,
+				4D7C06431930792C00FE8BD0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D7C06431930792C00FE8BD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D7C06421930792C00FE8BD0 /* CookieDes.app */,
+				4D7C06631930792C00FE8BD0 /* CookieDesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D7C06441930792C00FE8BD0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D7C06451930792C00FE8BD0 /* Foundation.framework */,
+				4D7C06471930792C00FE8BD0 /* CoreGraphics.framework */,
+				4D7C06491930792C00FE8BD0 /* UIKit.framework */,
+				4D7C06641930792C00FE8BD0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D7C064B1930792C00FE8BD0 /* CookieDes */ = {
+			isa = PBXGroup;
+			children = (
+				4D7C0683193098DE00FE8BD0 /* NSURLRequest+Extension.h */,
+				4D7C0684193098DE00FE8BD0 /* NSURLRequest+Extension.m */,
+				4D7C06541930792C00FE8BD0 /* MMAppDelegate.h */,
+				4D7C06551930792C00FE8BD0 /* MMAppDelegate.m */,
+				4D7C06571930792C00FE8BD0 /* Main.storyboard */,
+				4D7C065A1930792C00FE8BD0 /* MMViewController.h */,
+				4D7C065B1930792C00FE8BD0 /* MMViewController.m */,
+				4D7C065D1930792C00FE8BD0 /* Images.xcassets */,
+				4D7C064C1930792C00FE8BD0 /* Supporting Files */,
+			);
+			path = CookieDes;
+			sourceTree = "<group>";
+		};
+		4D7C064C1930792C00FE8BD0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D7C064D1930792C00FE8BD0 /* CookieDes-Info.plist */,
+				4D7C064E1930792C00FE8BD0 /* InfoPlist.strings */,
+				4D7C06511930792C00FE8BD0 /* main.m */,
+				4D7C06531930792C00FE8BD0 /* CookieDes-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D7C066A1930792C00FE8BD0 /* CookieDesTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D7C06701930792C00FE8BD0 /* CookieDesTests.m */,
+				4D7C066B1930792C00FE8BD0 /* Supporting Files */,
+			);
+			path = CookieDesTests;
+			sourceTree = "<group>";
+		};
+		4D7C066B1930792C00FE8BD0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D7C066C1930792C00FE8BD0 /* CookieDesTests-Info.plist */,
+				4D7C066D1930792C00FE8BD0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D7C06411930792C00FE8BD0 /* CookieDes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D7C06741930792C00FE8BD0 /* Build configuration list for PBXNativeTarget "CookieDes" */;
+			buildPhases = (
+				4D7C063E1930792C00FE8BD0 /* Sources */,
+				4D7C063F1930792C00FE8BD0 /* Frameworks */,
+				4D7C06401930792C00FE8BD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CookieDes;
+			productName = CookieDes;
+			productReference = 4D7C06421930792C00FE8BD0 /* CookieDes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D7C06621930792C00FE8BD0 /* CookieDesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D7C06771930792C00FE8BD0 /* Build configuration list for PBXNativeTarget "CookieDesTests" */;
+			buildPhases = (
+				4D7C065F1930792C00FE8BD0 /* Sources */,
+				4D7C06601930792C00FE8BD0 /* Frameworks */,
+				4D7C06611930792C00FE8BD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D7C06691930792C00FE8BD0 /* PBXTargetDependency */,
+			);
+			name = CookieDesTests;
+			productName = CookieDesTests;
+			productReference = 4D7C06631930792C00FE8BD0 /* CookieDesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D7C063A1930792C00FE8BD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MM;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = manjun.han;
+				TargetAttributes = {
+					4D7C06621930792C00FE8BD0 = {
+						TestTargetID = 4D7C06411930792C00FE8BD0;
+					};
+				};
+			};
+			buildConfigurationList = 4D7C063D1930792C00FE8BD0 /* Build configuration list for PBXProject "CookieDes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D7C06391930792C00FE8BD0;
+			productRefGroup = 4D7C06431930792C00FE8BD0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D7C06411930792C00FE8BD0 /* CookieDes */,
+				4D7C06621930792C00FE8BD0 /* CookieDesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D7C06401930792C00FE8BD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D7C065E1930792C00FE8BD0 /* Images.xcassets in Resources */,
+				4D7C06501930792C00FE8BD0 /* InfoPlist.strings in Resources */,
+				4D7C06591930792C00FE8BD0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D7C06611930792C00FE8BD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D7C066F1930792C00FE8BD0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D7C063E1930792C00FE8BD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D7C06561930792C00FE8BD0 /* MMAppDelegate.m in Sources */,
+				4D7C065C1930792C00FE8BD0 /* MMViewController.m in Sources */,
+				4D7C06521930792C00FE8BD0 /* main.m in Sources */,
+				4D7C0685193098DE00FE8BD0 /* NSURLRequest+Extension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D7C065F1930792C00FE8BD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D7C06711930792C00FE8BD0 /* CookieDesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D7C06691930792C00FE8BD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D7C06411930792C00FE8BD0 /* CookieDes */;
+			targetProxy = 4D7C06681930792C00FE8BD0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D7C064E1930792C00FE8BD0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D7C064F1930792C00FE8BD0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4D7C06571930792C00FE8BD0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D7C06581930792C00FE8BD0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4D7C066D1930792C00FE8BD0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D7C066E1930792C00FE8BD0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D7C06721930792C00FE8BD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		4D7C06731930792C00FE8BD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D7C06751930792C00FE8BD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CookieDes/CookieDes-Prefix.pch";
+				INFOPLIST_FILE = "CookieDes/CookieDes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4D7C06761930792C00FE8BD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CookieDes/CookieDes-Prefix.pch";
+				INFOPLIST_FILE = "CookieDes/CookieDes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4D7C06781930792C00FE8BD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CookieDes.app/CookieDes";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CookieDes/CookieDes-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CookieDesTests/CookieDesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4D7C06791930792C00FE8BD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CookieDes.app/CookieDes";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CookieDes/CookieDes-Prefix.pch";
+				INFOPLIST_FILE = "CookieDesTests/CookieDesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D7C063D1930792C00FE8BD0 /* Build configuration list for PBXProject "CookieDes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D7C06721930792C00FE8BD0 /* Debug */,
+				4D7C06731930792C00FE8BD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D7C06741930792C00FE8BD0 /* Build configuration list for PBXNativeTarget "CookieDes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D7C06751930792C00FE8BD0 /* Debug */,
+				4D7C06761930792C00FE8BD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4D7C06771930792C00FE8BD0 /* Build configuration list for PBXNativeTarget "CookieDesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D7C06781930792C00FE8BD0 /* Debug */,
+				4D7C06791930792C00FE8BD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D7C063A1930792C00FE8BD0 /* Project object */;
+}
