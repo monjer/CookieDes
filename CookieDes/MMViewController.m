@@ -54,15 +54,15 @@
 {
     [super viewDidLoad];
 	
-	[DefaultNotificationCenter addObserver:self
-											 selector:@selector(keyBoardShownHandler:)
-												 name:UIKeyboardWillShowNotification
-											   object:nil];
+	[DefaultNotificationCenter addObserver:self 
+				      selector:@selector(keyBoardShownHandler:)
+					  name:UIKeyboardWillShowNotification
+					object:nil];
 	
-	[DefaultNotificationCenter addObserver:self
-											 selector:@selector(keyBoardHiddenHandler:)
-												 name:UIKeyboardWillHideNotification
-											   object:nil];
+	[DefaultNotificationCenter addObserver:self 
+				      selector:@selector(keyBoardHiddenHandler:)
+				  	  name:UIKeyboardWillHideNotification
+					object:nil];
 }
 
 - (void)didReceiveMemoryWarning
@@ -84,8 +84,8 @@
 	NSURLRequest *request = [NSURLRequest requestWithURLString:urlString];
 	
 	[NSURLConnection sendAsynchronousRequest:request
-									   queue:[NSOperationQueue mainQueue]
-						   completionHandler:^(NSURLResponse *response, NSData *data, NSError *connectionError) {
+					   queue:[NSOperationQueue mainQueue]
+			       completionHandler:^(NSURLResponse *response, NSData *data, NSError *connectionError) {
 							   
 							   NSLog(@"%@",connectionError);
 							   
@@ -229,9 +229,9 @@
 - (void)showAlertWithTitle:(NSString*)title message:(NSString*)message
 {
 	UIAlertView *alertView = [[UIAlertView alloc]initWithTitle:title
-													   message:message
-													  delegate:nil
-											 cancelButtonTitle:@"确认" otherButtonTitles:nil];
+							   message:message
+							  delegate:nil
+						 cancelButtonTitle:@"确认" otherButtonTitles:nil];
 	
 	[alertView show];
 }
